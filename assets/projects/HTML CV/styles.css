@@ -1,0 +1,109 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+      scroll-padding-top: 75px;
+    }
+  
+}
+
+.nav-bar
+{
+    width: 100%;
+    height: 75px;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+nav > a
+{
+    justify-content: space-evenly;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 20pt;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    font-family: sans-serif;
+}
+
+main
+{
+    padding-top: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1
+{
+    font-size: 40pt;
+    font-family: sans-serif;
+}
+
+h2
+{
+    font-size: 26pt;
+    font-family: sans-serif;
+    border-bottom: 4px solid brown;
+}
+
+p
+{
+    font-size: 20pt;
+}
+
+.left
+{
+    display: inline-block;
+    text-align: left;
+    width: 70%;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.right
+{
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contact
+{
+    background-color: black;
+    height: 50px;
+}
+
+i
+{
+    color: white;
+}
+
+.contact > p
+{
+    padding-top: 0;
+    color: white;
+}
+
+li
+{
+    font-size: 20pt;
+}
+
+.bold
+{
+    font-weight: bold;
+}

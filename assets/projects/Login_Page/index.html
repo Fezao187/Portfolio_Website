@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./login.js" defer></script>
+</head>
+<body>
+    <form id="form" class="logOn">
+        <div class="container">
+            <h1>Login</h1>
+            <input id="username" type="text" placeholder="Username" required>
+            <br>
+            <input id="password" type="password" placeholder="Password" required>
+            <div class="pwdErr"></div>
+            <p class="forgot"><a href="./reset_pass.html">Forgot Password?</a></p>
+            <button type="submit" id="login">Login</button>
+            <p class="newAcc">Don't have an account? <br><a href="./create_acc.html">Create Account</a></p>
+        </div>
+    </form>
+</body>
+</html>

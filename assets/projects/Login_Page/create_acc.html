@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./create_acc.js" defer></script>
+</head>
+
+<body>
+    <form id="form" class="newAccount">
+        <div class="container">
+            <h1>Create Account</h1>
+            <input id="name" type="text" placeholder="Name" required>
+            <br>
+            <input id="username" type="text" placeholder="Username" required>
+            <div class="usernameErr"></div>
+            <input id="email" type="email" placeholder="Email" required>
+            <br>
+            <input id="createPassword" type="password" placeholder="Create Password" required>
+            <div class="pwdErr"></div>
+            <input id="confirmPassword" type="password" placeholder="Confirm Password" required>
+            <div class="pwdErr output"></div>
+            <button id="create" type="submit">Create Account</button>
+            <p class="haveAcc">Already have an account? <br><a href="./index.html">Login</a></p>
+        </div>
+    </form>
+    <br>
+</body>
+</html>
